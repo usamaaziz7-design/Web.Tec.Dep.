@@ -1,0 +1,186 @@
+
+.nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:#9d4848;
+padding:15px 60px;
+position:sticky;
+top:0;
+height: 40px;
+}
+.nav h1{
+float: left;
+padding-left: 100px;}
+.nav ul{
+display:flex;
+list-style:none;
+padding-right: 10px;
+}
+.nav ul li a{
+display:flex;
+text-decoration: none;
+color: black;
+padding-right: 30px;
+}
+
+
+.hero{
+    
+margin-top: 100px;
+margin-left: 450px;
+color: #ffffff;
+position:absolute;
+background-color: rgba(0, 0, 0, 0.5)
+
+}
+
+
+
+
+.about{
+    text-align: center;
+    color: #9d4848;
+    padding-top: 30px;
+}
+.portfilio{
+text-align: center;
+color: #9d4848;
+ padding-top: 30px;
+}
+
+
+
+.services{
+    margin-left: 750px;
+padding:30px;
+text-align:left;
+}
+
+.service-box{
+max-width:100px;
+margin:auto;
+}
+
+.skill{
+margin:20px 0;
+text-align:left;
+padding: 2px;;
+}
+
+.bar{
+background:#ccc;
+height:15px;
+border-radius:20px;
+width: 500px;
+
+}
+
+.bar span{
+display:block;
+height:100%;
+background:green;
+border-radius:20px;
+}
+
+.bar.yellow span{background:gold;}
+.bar.red span{background:red;}
+
+.contact{
+padding:60px;
+text-align:center;
+}
+
+
+
+
+.team{
+padding:60px;
+text-align:center;
+}
+
+.team-container{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:20px;
+max-width:800px;
+margin:30px auto;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.card img{
+border-radius:50%;
+margin-bottom:10px;
+}
+
+form{
+max-width:600px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:5px;
+}
+input,textarea{
+padding:12px;
+border:1px solid #ccc;
+}
+
+button{
+background:#00bcd4;
+border:none;
+padding:15px;
+color:white;
+font-size:16px;
+cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #9d4848;
+    color: white;
+    
+}
+
+.footer-container{
+display:flex;
+justify-content:space-between;
+flex-wrap:wrap;
+margin-left: 300px;
+}
+.footer-container ul{
+    list-style: none;
+
+}
+.footer-container ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+.footer-container .address{
+    margin-right: 100px;
+}
+.copyright{
+color: #ffffff;
+text-align: center;
+background-color: black;
+}
